@@ -1,0 +1,33 @@
+{
+  "name": "testing-express-api",
+  "version": "1.0.0",
+  "description": "Testing Express APIs with Supertest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knownasilya/testing-express-api.git"
+  },
+  "keywords": [
+    "testing",
+    "express",
+    "api",
+    "supertest"
+  ],
+  "author": "Ilya Radchenko <ilya@burstcreations.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knownasilya/testing-express-api/issues"
+  },
+  "homepage": "https://github.com/knownasilya/testing-express-api",
+  "dependencies": {
+    "express": "^4.11.2"
+  },
+  "devDependencies": {
+    "supertest": "^0.15.0",
+    "tape": "^3.5.0"
+  }
+}
