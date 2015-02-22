@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "test": "node test"
+    "test": "node test | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "supertest": "^0.15.0",
+    "tap-spec": "^2.2.1",
     "tape": "^3.5.0"
   }
 }
